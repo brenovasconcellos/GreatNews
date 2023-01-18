@@ -24,9 +24,6 @@ class Webservice {
                     completion(articleList.articles)
                 }
             }
-            
         }.resume()
-        
     }
-    
 }
