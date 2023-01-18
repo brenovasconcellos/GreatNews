@@ -20,5 +20,11 @@ class NewsListTableViewController: UITableViewController {
         
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
+        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2022-12-18&sortBy=publishedAt&apiKey=d613ddf46cd54835bd3f35d33c172fdb")!
+        
+        Webservice().getArticles(url: url) { _ in
+            
+        }
+        
     }
 }
