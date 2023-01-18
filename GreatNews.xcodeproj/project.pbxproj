@@ -13,6 +13,7 @@
 		EF7073AD29777362000FE192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7073AC29777362000FE192 /* Assets.xcassets */; };
 		EF7073B029777362000FE192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7073AE29777362000FE192 /* LaunchScreen.storyboard */; };
 		EF7073B929777AAF000FE192 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7073B829777AAF000FE192 /* NewsListTableViewController.swift */; };
+		EF7073BC29778549000FE192 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7073BB29778549000FE192 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF7073AF29777362000FE192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7073B129777362000FE192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7073B829777AAF000FE192 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		EF7073BB29778549000FE192 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EF7073A22977735B000FE192 /* GreatNews */ = {
 			isa = PBXGroup;
 			children = (
+				EF7073BA29778523000FE192 /* Services */,
 				EF7073B729777A2A000FE192 /* Controllers */,
 				EF7073A32977735B000FE192 /* AppDelegate.swift */,
 				EF7073A52977735B000FE192 /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				EF7073B829777AAF000FE192 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF7073BA29778523000FE192 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF7073BB29778549000FE192 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				EF7073A42977735B000FE192 /* AppDelegate.swift in Sources */,
 				EF7073B929777AAF000FE192 /* NewsListTableViewController.swift in Sources */,
+				EF7073BC29778549000FE192 /* Webservice.swift in Sources */,
 				EF7073A62977735B000FE192 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
