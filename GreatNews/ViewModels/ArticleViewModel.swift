@@ -39,11 +39,11 @@ extension ArticleViewModel {
 
 extension ArticleViewModel {
     
-    var titel: String {
-        return self.article.title
+    var title: String {
+        return self.article.title ?? ""
     }
     
     var description: String {
-        return article.description
+        return article.description ?? ""
     }
 }

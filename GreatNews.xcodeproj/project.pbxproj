@@ -16,6 +16,7 @@
 		EF7073BC29778549000FE192 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7073BB29778549000FE192 /* Webservice.swift */; };
 		EFFFCACD2978129800C7AA57 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFCACC2978129800C7AA57 /* Article.swift */; };
 		EFFFCAD029781BAB00C7AA57 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFCACF29781BAB00C7AA57 /* ArticleViewModel.swift */; };
+		EFFFCAD32978468400C7AA57 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFCAD22978468400C7AA57 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EF7073BB29778549000FE192 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		EFFFCACC2978129800C7AA57 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		EFFFCACF29781BAB00C7AA57 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		EFFFCAD22978468400C7AA57 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF38E52C297866FE004CA817 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF7073A92977735B000FE192 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EF7073972977735B000FE192 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +72,14 @@
 		EF7073A22977735B000FE192 /* GreatNews */ = {
 			isa = PBXGroup;
 			children = (
-				EFFFCACE29781B0600C7AA57 /* ViewModels */,
 				EFFFCACB2978127C00C7AA57 /* Models */,
+				EF38E52C297866FE004CA817 /* Views */,
+				EFFFCACE29781B0600C7AA57 /* ViewModels */,
+				EFFFCAD1297845BC00C7AA57 /* Cell */,
 				EF7073BA29778523000FE192 /* Services */,
 				EF7073B729777A2A000FE192 /* Controllers */,
 				EF7073A32977735B000FE192 /* AppDelegate.swift */,
 				EF7073A52977735B000FE192 /* SceneDelegate.swift */,
-				EF7073A92977735B000FE192 /* Main.storyboard */,
 				EF7073AC29777362000FE192 /* Assets.xcassets */,
 				EF7073AE29777362000FE192 /* LaunchScreen.storyboard */,
 				EF7073B129777362000FE192 /* Info.plist */,
@@ -106,6 +117,14 @@
 				EFFFCACF29781BAB00C7AA57 /* ArticleViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFFFCAD1297845BC00C7AA57 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFCAD22978468400C7AA57 /* ArticleTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +203,7 @@
 				EF7073BC29778549000FE192 /* Webservice.swift in Sources */,
 				EFFFCAD029781BAB00C7AA57 /* ArticleViewModel.swift in Sources */,
 				EF7073A62977735B000FE192 /* SceneDelegate.swift in Sources */,
+				EFFFCAD32978468400C7AA57 /* ArticleTableViewCell.swift in Sources */,
 				EFFFCACD2978129800C7AA57 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
